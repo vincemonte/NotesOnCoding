@@ -1,0 +1,6 @@
+Using VirtualEnv
+================
+- Route to desired directory
+- type: “virtualenv env_name” 
+- to activate local environment, type: “source env_name/bin/activate
+- to go back to global environment, type: “deactivate”

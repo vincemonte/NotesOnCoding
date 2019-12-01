@@ -1,0 +1,38 @@
+Notes on Git
+============
+
+- First, initialize the local repository by navigating to the local directory and 
+typing: “git init”
+
+- (Optional), type: “git status” to see the status of the files in the branch 
+
+- We will create a .gitignore file
+	o this is a simple text file which will include the names of files to be ignored 
+	when commits are made 
+	o we can use wildcards 
+	o notice the change when the status is run again 
+
+- Staging Area:
+	o We can add to the staging area with “git add filename” or -A for everything 
+	o We can remove from the staging area with “git reset filename” or don’t include 
+	the filename to reset everything 
+	o To commit files: “git commit -m “”” 		//-m is to include a message 
+	o To use a message from a file, use “git commit -F message.txt”
+
+- “git log” will allow us to see past commits and metadata on them 
+
+- Pushing Changes:
+	o first stage the changes locally; “git diff” will show you the local changes made 
+	o Commit the files locally 
+	o Remember: always pull from the repo 	//this applies when working with others 
+	o “git push <repo. name> <branch>”
+ 
+- Adding a Remote Repository:
+	o “git remote add <repo. name> <url>”
+	o “git remote” will check the connected remote repo.’s 
+
+- Using an Existing Remote Repo. With Git:
+	o to clone a repo: “git clone <url> <where to clone> //don’t include <> 
+	o if we are in a pwd and use . as the last param, it will clone all files to the pwd 
+	o “git remote -v” will list information on the repo. 
+	o “git branch -a” will list all branches locally and remotely 

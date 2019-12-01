@@ -26,7 +26,7 @@ typing: “git init”
 	o Commit the files locally 
 	o Remember: always pull from the repo 	//this applies when working with others 
 	o “git push <repo. name> <branch>”
- 
+ 	o default is “git push origin master”
 - Adding a Remote Repository:
 	o “git remote add <repo. name> <url>”
 	o “git remote” will check the connected remote repo.’s 

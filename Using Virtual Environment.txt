@@ -2,5 +2,11 @@ Using VirtualEnv
 ================
 - Route to desired directory
 - type: “virtualenv env_name” 
+	o this must be done once on each machine 
 - to activate local environment, type: “source env_name/bin/activate
 - to go back to global environment, type: “deactivate”
+- You can freeze the current state of the packages within the venv and redirect them to a .txt file; use "pip freeze > requirements.txt"
+	o that file can now be used to install everything at once on your new machine using "pip install -r requirements.txt"
+- when initalizing the virtualenv (done by "virtualenv dirname") you can specify the python interpreter 
+	o e.g. virtualenv -p /usr/bin/python3.6 venv 
+
